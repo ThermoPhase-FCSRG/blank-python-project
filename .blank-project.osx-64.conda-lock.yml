@@ -579,7 +579,7 @@ package:
   category: main
   optional: false
 - name: diff-cover
-  version: 9.3.2
+  version: 9.4.1
   manager: conda
   platform: osx-64
   dependencies:
@@ -588,10 +588,10 @@ package:
     pluggy: '>=0.13.1,<2'
     pygments: '>=2.19.1'
     python: '>=3.9'
-  url: https://conda.anaconda.org/conda-forge/noarch/diff-cover-9.3.2-pyhd8ed1ab_0.conda
+  url: https://conda.anaconda.org/conda-forge/noarch/diff-cover-9.4.1-pyhd8ed1ab_0.conda
   hash:
-    md5: 8633ccae45d2ac0a79b607db2305a9ef
-    sha256: e51b67bb2bc2f39abe1a88192c6fa2e05aa28848e011e021e09ce9842863731b
+    md5: dd8c99899522d18468346dffdf7b45bb
+    sha256: 4ce02375fe5443fcef6bd3c8b112e2327f0b6969d59f8de3f5066e7a8996cc36
   category: main
   optional: false
 - name: distlib
@@ -1296,7 +1296,7 @@ package:
   category: main
   optional: false
 - name: jupyterlab
-  version: 4.4.3
+  version: 4.4.4
   manager: conda
   platform: osx-64
   dependencies:
@@ -1316,10 +1316,10 @@ package:
     tomli: '>=1.2.2'
     tornado: '>=6.2.0'
     traitlets: ''
-  url: https://conda.anaconda.org/conda-forge/noarch/jupyterlab-4.4.3-pyhd8ed1ab_0.conda
+  url: https://conda.anaconda.org/conda-forge/noarch/jupyterlab-4.4.4-pyhd8ed1ab_0.conda
   hash:
-    md5: 4861a0c2a5a5d0481a450a9dfaf9febe
-    sha256: fc0235a71d852734fe92183a78cb91827367573450eba82465ae522c64230736
+    md5: dbd991d0080c48dae5113a27ab6d0d70
+    sha256: a6efcdbe973e12bc8bd61aa26af77f733364975000c8fdaa0d6374338018e0db
   category: main
   optional: false
 - name: jupyterlab_pygments
@@ -1567,16 +1567,16 @@ package:
   category: main
   optional: false
 - name: libsqlite
-  version: 3.50.1
+  version: 3.50.2
   manager: conda
   platform: osx-64
   dependencies:
     __osx: '>=10.13'
     libzlib: '>=1.3.1,<2.0a0'
-  url: https://conda.anaconda.org/conda-forge/osx-64/libsqlite-3.50.1-hdb6dae5_4.conda
+  url: https://conda.anaconda.org/conda-forge/osx-64/libsqlite-3.50.2-he7d56d0_0.conda
   hash:
-    md5: 3b7ce72a263ea3f94822961fc179f3a0
-    sha256: dd884e39df484aecd3e9f1c20d79c7c5089ef74a33318971d4934a7df0f378bb
+    md5: 678284738efc450afcf90f70365f7318
+    sha256: bd3ab15e14d7e88851c962034d97519a135d86f79f88b3237fbfb34194c114cb
   category: main
   optional: false
 - name: libzlib
@@ -2609,12 +2609,12 @@ package:
   manager: conda
   platform: osx-64
   dependencies:
-    python: '>=3.9'
+    python: ''
     six: '>=1.5'
-  url: https://conda.anaconda.org/conda-forge/noarch/python-dateutil-2.9.0.post0-pyhff2d567_1.conda
+  url: https://conda.anaconda.org/conda-forge/noarch/python-dateutil-2.9.0.post0-pyhe01879c_2.conda
   hash:
-    md5: 5ba79d7c71f03c678c8ead841f347d6e
-    sha256: a50052536f1ef8516ed11a844f9413661829aa083304dc624c5925298d078d79
+    md5: 5b8d21249ff20967101ffa321cab24e8
+    sha256: d6a17ece93bbd5139e02d2bd7dbfa80bee1a4261dced63f65f679121686bf664
   category: main
   optional: false
 - name: python-fastjsonschema
@@ -2874,7 +2874,7 @@ package:
   category: main
   optional: false
 - name: ruff
-  version: 0.12.0
+  version: 0.12.1
   manager: conda
   platform: osx-64
   dependencies:
@@ -2882,14 +2882,14 @@ package:
     libcxx: '>=18'
     python: '>=3.11,<3.12.0a0'
     python_abi: 3.11.*
-  url: https://conda.anaconda.org/conda-forge/osx-64/ruff-0.12.0-py311h03c42c1_0.conda
+  url: https://conda.anaconda.org/conda-forge/osx-64/ruff-0.12.1-py311h2f162b9_1.conda
   hash:
-    md5: 8f4c6b402fd847cbb2661d42529c6267
-    sha256: 4963c109b24c3986587d0c3a8612e85284bae9fa81846184aa3b05b2d4972997
+    md5: 1b6eac161d042e0e182ec5465067afa5
+    sha256: 0b00c5a5048ba0dce615c76a34768a26c2b786c55ff0b6073f433a8057da624c
   category: main
   optional: false
 - name: scipy
-  version: 1.15.2
+  version: 1.16.0
   manager: conda
   platform: osx-64
   dependencies:
@@ -2897,16 +2897,16 @@ package:
     libblas: '>=3.9.0,<4.0a0'
     libcblas: '>=3.9.0,<4.0a0'
     libcxx: '>=18'
-    libgfortran: '>=5'
-    libgfortran5: '>=13.2.0'
+    libgfortran: 5.*
+    libgfortran5: '>=14.2.0'
     liblapack: '>=3.9.0,<4.0a0'
-    numpy: '>=1.23.5'
+    numpy: '>=1.25.2'
     python: '>=3.11,<3.12.0a0'
     python_abi: 3.11.*
-  url: https://conda.anaconda.org/conda-forge/osx-64/scipy-1.15.2-py311h0c91ca8_0.conda
+  url: https://conda.anaconda.org/conda-forge/osx-64/scipy-1.16.0-py311hed73a19_0.conda
   hash:
-    md5: 58c17d411ed0cd1220ed3e824a3efc82
-    sha256: 796252d7772df42edd29a45ae70eb18843a7e476d42c96c273cd6e677ec148c8
+    md5: 3eeb914cd479ab8b2338fd96b9d25e05
+    sha256: 5afa1705e678c0fbe965f66454f4a22f3e0a59514adec65cb10cd79c3c5efdac
   category: main
   optional: false
 - name: semver
