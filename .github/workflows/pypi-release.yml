@@ -22,7 +22,7 @@ jobs:
       # For a "real" release, consider this approach. Review SERVER value defined in the workflow env.
 
     - name: Check out code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
       with:
         fetch-depth: 0      # so tags/history are available
 
