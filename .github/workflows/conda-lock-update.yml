@@ -21,7 +21,7 @@ jobs:
 
     steps:
       - name: Checkout full history
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
@@ -61,7 +61,7 @@ jobs:
           conda devenv --lock
 
       - name: Create the PR pushing the changes
-        uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e
+        uses: peter-evans/create-pull-request@84ae59a2cdc2258d6fa0732dd66352dddae2a412
         if: ${{ success() && steps.update_locks.outcome == 'success' }}
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
